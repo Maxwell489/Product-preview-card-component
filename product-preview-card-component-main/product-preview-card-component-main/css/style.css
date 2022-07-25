@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.img-responsive{
+    height: 60vh;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.texto__container{
+    background-color: #ffff;
+    width: calc(320px - 10px);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.inicial__texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.titulo__principal{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0 10px;
+}
+
+.paragrafo__texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding: 0 10px;
+    line-height: 28px;
+}
+
+.texto__valor{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+}
+
+.valor__promocao{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.botao_img{
+    padding-right: 10px;
+}
+
+.paragrafo__botao{
+    font-weight: 700;
+    font-size: 15px;
+}
